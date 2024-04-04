@@ -1,0 +1,1 @@
+# npm.pihole.sync
