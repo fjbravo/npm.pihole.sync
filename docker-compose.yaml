@@ -5,10 +5,9 @@ services:
     build: .
     container_name: npm.pihole.sync
     environment:
-      PROXY_HOST_FOLDER: /path/to/proxy_host
       PIHOLE_IP: 192.168.1.100
       NPM_SERVER_IP: 192.168.1.101
       PIHOLE_USER: admin
       PIHOLE_PASS: password
     volumes:
-      - /path/to/proxy_host:/path/to/proxy_host
+      - /path/to/proxy_host:/data/nginx/proxy_host
