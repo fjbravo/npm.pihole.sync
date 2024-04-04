@@ -9,5 +9,6 @@ services:
       NPM_SERVER_IP: 192.168.1.101
       PIHOLE_USER: admin
       PIHOLE_PASS: password
+      DRY_RUN: true
     volumes:
-      - /path/to/proxy_host:/data/nginx/proxy_host
+      - /data/nginx/proxy_host:/data/nginx/proxy_host
