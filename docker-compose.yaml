@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   npm.pihole.sync:
-    build: .
+    image: ghcr.io/fjbravo/npm.pihole.sync:latest
     container_name: npm.pihole.sync
     environment:
       PIHOLE_IP: 192.168.1.100
