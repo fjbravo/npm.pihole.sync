@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Environment variables
-PROXY_HOST_FOLDER=$/data/nginx/proxy_host
+PROXY_HOST_FOLDER=$/usr/src/app/nginx/proxy_host
 PIHOLE_IP=${PIHOLE_IP}
 NPM_SERVER_IP=${NPM_SERVER_IP}
 PIHOLE_USER=${PIHOLE_USER}
